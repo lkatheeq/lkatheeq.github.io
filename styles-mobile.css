@@ -1,0 +1,144 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#fff;
+}
+
+.title-bar {
+    background-color: #c40701;
+    text-align: center;
+    padding: 1.25rem;
+    position: fixed;
+    width: 100%;    
+    top: 0;
+    z-index: 1000;
+}
+
+.top-photo {
+    border-radius: 50%;
+    width: 6.25rem;
+    height: 6.25rem;
+    object-fit: cover;
+}
+
+.long-text{
+    display: block;
+    line-height: normal;
+    font-style: italic;
+}
+
+.rectangular-photo{
+    padding-left: 30%;
+    object-fit: cover;
+    height: 25rem;
+}
+
+.full-width-photo {
+    height: 300px; /* Adjust the height as needed */
+    background-image: url(atheeq-meets-pm.jpeg); /* Replace with your image path */
+    background-size: cover;
+    background-position: 25% 20%;
+    position: relative;
+    margin-top: 1rem; /* Adjust to create space between the navbar and the hero section */
+}
+
+  /* Clear floats after image containers */
+.row {
+    display: flex;
+}  
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+  }
+
+.column img {
+    width: 100%;
+    height: 25rem; /* Set the desired fixed height */
+    object-fit: cover; /* Crop the image to cover the container */
+} 
+
+.column .overlay-text {
+    position: relative;
+    bottom: 80%; /* Adjust the vertical position */
+    left: 0; /* Adjust the horizontal position */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.main-content {
+    padding-top: 13rem  ;
+    margin: auto;
+    text-align: left;
+    max-width: 800px; /* Set a maximum width for better readability on larger screens */
+}
+
+.main-content-no-margin {
+    padding-top: 8.5rem  ;
+    margin: auto;
+    text-align: center;
+    max-width: 800px; /* Set a maximum width for better readability on larger screens */
+}
+
+h2, h3 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    size: 32px;
+}
+
+.subsection {
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #db0c24;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Navigation Links Styling */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: underline;
+    color: #c40701;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f6abb6;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
